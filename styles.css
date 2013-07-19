@@ -1,0 +1,104 @@
+/* global */
+html, body {
+	margin: 0;
+	padding: 0;
+	font-family: arial, san-serif;
+}
+
+body {
+	text-align: : center;
+	background: #eee;
+}
+
+p {
+	padding: 5px 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	padding: 0;
+	margin: 0;
+}
+
+h5 {
+	padding: 10px;	
+}
+
+.orange {
+	background-color: rgb(241, 180, 48);
+	color: white;
+}
+
+.grey {
+	background-color: #eef5f6;
+}
+
+#header, #details {
+	border-collapse: collapse;
+	background: #fff;
+	margin: 0px auto;
+	table-layout: fixed;
+	text-align: left;
+	width: 1000px;
+}
+
+#details {
+	border-top: 2px solid #00B3E9;
+	margin-top: 10px;
+}
+
+/* Header */
+#overall-grade {
+	text-align: center;
+	text-transform: uppercase;
+	width: 150px;
+}
+
+#overall-grade-header td{
+	border-top: 3px #d9a535 solid;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 10px 0;
+}
+
+#overall-grade-score td{
+	font-size: 46px;
+	height: 60px;
+	padding: 20px 0;
+}
+
+#grade-summary {
+	width: 400px;
+}
+
+.grade-row {
+	height: 30px;
+	border-bottom: 3px solid white;
+}
+
+.grade-row-score {
+	border-left: 3px #d9a535 solid;
+	padding: 5px;
+	width:20px;
+}
+
+.grade-row-summary {
+
+}
+
+/* Report details */
+
+.area-container {
+	padding: 10px;
+	width: 100%;
+}
+
+.area-header-title {
+	padding: 3px;
+}
+
+.area-header-score {
+	background-color: green;
+	color: white;
+	padding: 3px;
+	text-align: right;
+}

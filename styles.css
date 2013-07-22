@@ -11,7 +11,8 @@ body {
 }
 
 p {
-	padding: 5px 20px;
+	margin: 0;
+	padding: 5px 10px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -30,6 +31,22 @@ h5 {
 
 .grey {
 	background-color: #eef5f6;
+}
+
+.green {
+	background-color: #73BF86;
+}
+
+.red {
+	background-color: #F25757;
+}
+
+.amber {
+	background-color: rgb(241, 180, 48);
+}
+
+.amber-border-top {
+	border-top: 3px solid rgb(241, 180, 48);
 }
 
 #header, #details {
@@ -97,7 +114,6 @@ h5 {
 }
 
 .area-header-score {
-	background-color: green;
 	color: white;
 	padding: 3px;
 	text-align: right;

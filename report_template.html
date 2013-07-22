@@ -21,18 +21,18 @@
 				<td width="400">
 					<table id="grade-summary">
 						<tr class="grade-row">
-							<td class="grade-row-score orange">86</td>
-							<td class="grade-row-summary grey">Lorem Ipsum</td>
+							<td class="grade-row-score green green-border-left">86</td>
+							<td class="grade-row-summary grey">Code Metrics</td>
 						</tr>
 						<tr height="6"></tr>
 						<tr class="grade-row">
-							<td class="grade-row-score orange">57</td>
-							<td class="grade-row-summary grey">Lorem Ipsum</td>
+							<td class="grade-row-score amber amber-border-left">57</td>
+							<td class="grade-row-summary grey">Metadata Metrics</td>
 						</tr>
 						<tr height="6"></tr>
 						<tr class="grade-row">
-							<td class="grade-row-score orange">12</td>
-							<td class="grade-row-summary grey">Lorem Ipsum</td>
+							<td class="grade-row-score red red-border-left">12</td>
+							<td class="grade-row-summary grey">Other Metrics</td>
 						</tr>
 						<tr height="6"></tr>
 					</table>
@@ -44,6 +44,7 @@
 		</table>
 
 		<table id="details">
+			<!-- Section 1 - Code Metrics -->
 			<tr>
 				<td>
 					<table>
@@ -51,26 +52,246 @@
 							<td><h5>Code Metrics</h5></td>
 						</tr>
 						<tr>
-							<table class="area-container">
-								<tr class="area-header">
-									<td class="area-header-title grey" colspan="5"><h6>API Versions</h6></td>
-									<td class="area-header-score amber">33%</td>
-								</tr>
-								<tr>
-									<td class="green"><p>Ideal: 1 version</p></td>
-									<td class="amber"><p>Good: 3 versions</p></td>
-									<td class="red"><p>Bad: >3 versions</p></td>
-									<td class="amber-border-top"><p>2 versions</p></td>
-									<td>
-										<h4 style="padding: 5px 20px;">Implications</h4>
-										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-									</td>
-								</tr>
-							</table>
+							<td>
+								<!-- Template 1 - Number of X -->
+								<table class="area-container">
+									<tr class="area-header">
+										<td class="area-header-title grey" colspan="5"><h6>API Versions</h6></td>
+										<td class="area-header-score red">33%</td>
+									</tr>
+									<tr>
+										<td>
+											<table class="benchmark">
+												<tr>
+													<td class="green benchmark-header">Ideal</td>
+												</tr>
+												<tr>
+													<td class="grey">1</td>
+												</tr>
+											</table>
+										</td>
+										<td>
+											<table class="benchmark">
+												<tr>
+													<td class="amber benchmark-header">Good</td>
+												</tr>
+												<tr>
+													<td class="grey">&lt; 2</td>
+												</tr>
+											</table>
+										</td>
+										<td>
+											<table class="benchmark">
+												<tr>
+													<td class="red benchmark-header">Bad</td>
+												</tr>
+												<tr>
+													<td class="grey">&gt; 2</td>
+												</tr>
+											</table>
+										</td>		
+										<td>
+											<table class="benchmark">
+												<tr>
+													<td class="red-border-top benchmark-header black-text grey">You</td>
+												</tr>
+												<tr>
+													<td class="red">2</td>
+												</tr>
+											</table>
+										</td>																				
+										<td>
+											<h4 style="padding: 5px 20px;">Implications</h4>
+											<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+										</td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<!-- Template 2 - Number of X -->
+								<table class="area-container">
+									<tr class="area-header">
+										<td class="area-header-title grey" colspan="5"><h6>Average test classses per Apex class</h6></td>
+										<td class="area-header-score green">100&</td>
+									</tr>
+									<tr>
+										<td>
+											<table class="benchmark">
+												<tr>
+													<td class="green benchmark-header">Ideal</td>
+												</tr>
+												<tr>
+													<td class="grey">&gt; 1</td>
+												</tr>
+											</table>
+										</td>
+										<td>
+											<table class="benchmark">
+												<tr>
+													<td class="amber benchmark-header">Good</td>
+												</tr>
+												<tr>
+													<td class="grey">1</td>
+												</tr>
+											</table>
+										</td>
+										<td>
+											<table class="benchmark">
+												<tr>
+													<td class="red benchmark-header">Bad</td>
+												</tr>
+												<tr>
+													<td class="grey">0</td>
+												</tr>
+											</table>
+										</td>		
+										<td>
+											<table class="benchmark">
+												<tr>
+													<td class="green-border-top benchmark-header black-text grey">You</td>
+												</tr>
+												<tr>
+													<td class="green">2</td>
+												</tr>
+											</table>
+										</td>																				
+										<td>
+											<h4 style="padding: 5px 20px;">Implications</h4>
+											<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+										</td>
+									</tr>
+								</table>
+							</td>							
 						</tr>
 					</table>
 				</td>
 			</tr>
+			<!-- Section 2 - Metadata Metrics -->
+			<tr>
+				<td>
+					<table>
+						<tr>
+							<td><h5>Metadata Metrics</h5></td>
+						</tr>
+						<tr>
+							<td>
+								<!-- Template 1 - Number of X -->
+								<table class="area-container">
+									<tr class="area-header">
+										<td class="area-header-title grey" colspan="5"><h6>API Versions</h6></td>
+										<td class="area-header-score amber">33%</td>
+									</tr>
+									<tr>
+										<td>
+											<table class="benchmark">
+												<tr>
+													<td class="green benchmark-header">Ideal</td>
+												</tr>
+												<tr>
+													<td class="grey">1</td>
+												</tr>
+											</table>
+										</td>
+										<td>
+											<table class="benchmark">
+												<tr>
+													<td class="amber benchmark-header">Good</td>
+												</tr>
+												<tr>
+													<td class="grey">&lt; 2</td>
+												</tr>
+											</table>
+										</td>
+										<td>
+											<table class="benchmark">
+												<tr>
+													<td class="red benchmark-header">Bad</td>
+												</tr>
+												<tr>
+													<td class="grey">&gt; 2</td>
+												</tr>
+											</table>
+										</td>		
+										<td>
+											<table class="benchmark">
+												<tr>
+													<td class="amber-border-top benchmark-header black-text grey">You</td>
+												</tr>
+												<tr>
+													<td class="amber">2</td>
+												</tr>
+											</table>
+										</td>																				
+										<td>
+											<h4 style="padding: 5px 20px;">Implications</h4>
+											<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+										</td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<!-- Template 2 - Number of X -->
+								<table class="area-container">
+									<tr class="area-header">
+										<td class="area-header-title grey" colspan="5"><h6>Average test classses per Apex class</h6></td>
+										<td class="area-header-score green">100&</td>
+									</tr>
+									<tr>
+										<td>
+											<table class="benchmark">
+												<tr>
+													<td class="green benchmark-header">Ideal</td>
+												</tr>
+												<tr>
+													<td class="grey">&gt; 1</td>
+												</tr>
+											</table>
+										</td>
+										<td>
+											<table class="benchmark">
+												<tr>
+													<td class="amber benchmark-header">Good</td>
+												</tr>
+												<tr>
+													<td class="grey">1</td>
+												</tr>
+											</table>
+										</td>
+										<td>
+											<table class="benchmark">
+												<tr>
+													<td class="red benchmark-header">Bad</td>
+												</tr>
+												<tr>
+													<td class="grey">0</td>
+												</tr>
+											</table>
+										</td>		
+										<td>
+											<table class="benchmark">
+												<tr>
+													<td class="green-border-top benchmark-header black-text grey">You</td>
+												</tr>
+												<tr>
+													<td class="green">2</td>
+												</tr>
+											</table>
+										</td>																				
+										<td>
+											<h4 style="padding: 5px 20px;">Implications</h4>
+											<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+										</td>
+									</tr>
+								</table>
+							</td>							
+						</tr>
+					</table>
+				</td>
+			</tr>			
 		</table>
 	</body>
 </html>

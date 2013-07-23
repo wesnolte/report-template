@@ -68,6 +68,10 @@
 	text-align: right;
 }
 
+.area-container td {
+	vertical-align: top;
+}
+
 /* Benchmark */
 .benchmark {
 	text-align: center;
@@ -80,6 +84,20 @@
 	padding: 10px 0;
 	text-transform: uppercase;
 	width: 100px;
+}
+
+.grp-scores {
+
+}
+
+.grp-score-header {
+	padding: 2px 5px;
+	width: 200px;
+}
+
+.grp-score {
+	padding: 2px;
+	text-align: center;
 }
 
 /* global */
@@ -134,7 +152,7 @@ h5 {
 }
 
 .amber-border-top {
-	border-top: 3px solid rgb(241, 180, 48);
+	border-top: 3px solid #D9A535;
 }
 
 .green-border-top {
@@ -146,7 +164,7 @@ h5 {
 }
 
 .amber-border-left {
-	border-left: 3px solid rgb(241, 180, 48);
+	border-left: 3px solid #D9A535;
 }
 
 .green-border-left {

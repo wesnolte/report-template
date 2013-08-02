@@ -1,6 +1,7 @@
 <html>
 	<head>
-		<link href="https://s3-eu-west-1.amazonaws.com/tquilatod/report_assets/styles.css" rel="stylesheet" />
+		<!-- <link href="https://s3-eu-west-1.amazonaws.com/tquilatod/report_assets/styles.css" rel="stylesheet" /> -->
+		<link href="styles.css" rel="stylesheet" />
 	</head>
 	<body>
 		<table id="header">
@@ -54,54 +55,57 @@
 						<tr>
 							<td>
 								<!-- Template 1 - Number of X -->
-								<table class="area-container">
+								<table>
 									<tr class="area-header">
-										<td class="area-header-title grey" colspan="5"><h6>API Versions</h6></td>
+										<td class="area-header-title grey" colspan="3"><h6>API Versions</h6></td>
 										<td class="area-header-score red">33%</td>
 									</tr>
-									<tr>
+									<tr class="area-body">
 										<td>
 											<table class="benchmark">
 												<tr>
-													<td class="green benchmark-header">Ideal</td>
+													<td colspan="2" class="amber-border-top benchmark-header black-text grey">
+														Benchmark
+													</td>													
 												</tr>
 												<tr>
-													<td class="grey">1</td>
+													<td class="green benchmark-header" width="30%">Ideal</td>
+													<td class="benchmark-score" width="70%">
+														1 API Version
+													</td>	
 												</tr>
+												<tr>											
+													<td class="amber benchmark-header" width="30%">Good</td>
+													<td class="benchmark-score" width="70%">
+														< 3 API Versions
+													</td>
+												</tr>
+												<tr>
+													<td class="red benchmark-header" width="30%">Bad</td>
+													<td class="benchmark-score" width="70%">
+														> 3 API Versions
+													</td>																										
+												</tr>
+
 											</table>
-										</td>
+										</td>	
 										<td>
 											<table class="benchmark">
 												<tr>
-													<td class="amber benchmark-header">Good</td>
+													<td colspan="2" class="green-border-top benchmark-header black-text grey">
+														You Have
+													</td>													
 												</tr>
 												<tr>
-													<td class="grey">&lt; 2</td>
+													<td class="actual-score green">
+														1 API Version
+													</td>	
 												</tr>
-											</table>
-										</td>
+
+											</table>											
+										</td>																		
 										<td>
-											<table class="benchmark">
-												<tr>
-													<td class="red benchmark-header">Bad</td>
-												</tr>
-												<tr>
-													<td class="grey">&gt; 2</td>
-												</tr>
-											</table>
-										</td>		
-										<td>
-											<table class="benchmark">
-												<tr>
-													<td class="red-border-top benchmark-header black-text grey">You</td>
-												</tr>
-												<tr>
-													<td class="red">2</td>
-												</tr>
-											</table>
-										</td>																				
-										<td>
-											<h4 style="padding: 5px 20px;">Implications</h4>
+											<h4>Implications</h4>
 											<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
 										</td>
 									</tr>
@@ -110,191 +114,73 @@
 						</tr>
 						<tr>
 							<td>
-								<!-- Template 2 - Number of X -->
-								<table class="area-container">
+								<!-- Template 2 - Groupings of X -->
+								<table>
 									<tr class="area-header">
-										<td class="area-header-title grey" colspan="5"><h6>Average test classses per Apex class</h6></td>
-										<td class="area-header-score green">100&</td>
+										<td class="area-header-title grey" colspan="3"><h6>Object Fields</h6></td>
+										<td class="area-header-score red">68%</td>
 									</tr>
-									<tr>
+									<tr class="area-body">
 										<td>
 											<table class="benchmark">
 												<tr>
-													<td class="green benchmark-header">Ideal</td>
+													<td colspan="2" class="amber-border-top benchmark-header black-text grey">
+														Benchmark
+													</td>													
 												</tr>
 												<tr>
-													<td class="grey">&gt; 1</td>
+													<td class="green benchmark-header" width="30%">Ideal</td>
+													<td class="benchmark-score" width="70%">
+														< 200 fields
+													</td>	
 												</tr>
+												<tr>											
+													<td class="amber benchmark-header" width="30%">Good</td>
+													<td class="benchmark-score" width="70%">
+														< 500 fields
+													</td>
+												</tr>
+												<tr>
+													<td class="red benchmark-header" width="30%">Bad</td>
+													<td class="benchmark-score" width="70%">
+														> 500 fields
+													</td>																										
+												</tr>
+
 											</table>
-										</td>
+										</td>	
 										<td>
 											<table class="benchmark">
 												<tr>
-													<td class="amber benchmark-header">Good</td>
+													<td colspan="2" class="green-border-top benchmark-header black-text grey">
+														You Have
+													</td>													
 												</tr>
 												<tr>
-													<td class="grey">1</td>
+													<td class="actual-score green">
+														3 Objects
+													</td>	
 												</tr>
-											</table>
-										</td>
+												<tr>
+													<td class="actual-score amber">
+														8 Objects
+													</td>							
+												</tr>
+												<tr>
+													<td class="actual-score red">
+														12 Objects
+													</td>																				
+												</tr>
+											</table>											
+										</td>																		
 										<td>
-											<table class="benchmark">
-												<tr>
-													<td class="red benchmark-header">Bad</td>
-												</tr>
-												<tr>
-													<td class="grey">0</td>
-												</tr>
-											</table>
-										</td>		
-										<td>
-											<table class="benchmark">
-												<tr>
-													<td class="green-border-top benchmark-header black-text grey">You</td>
-												</tr>
-												<tr>
-													<td class="green">2</td>
-												</tr>
-											</table>
-										</td>																				
-										<td>
-											<h4 style="padding: 5px 20px;">Implications</h4>
-											<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-										</td>
-									</tr>
-								</table>
-							</td>							
-						</tr>
-					</table>
-				</td>
-			</tr>
-			<!-- Section 2 - Metadata Metrics -->
-			<tr>
-				<td>
-					<table>
-						<tr>
-							<td><h5>Metadata Metrics</h5></td>
-						</tr>
-						<tr>
-							<td>
-								<!-- Template 1 - Number of X -->
-								<table class="area-container">
-									<tr class="area-header">
-										<td class="area-header-title grey" colspan="5"><h6>API Versions</h6></td>
-										<td class="area-header-score amber">33%</td>
-									</tr>
-									<tr>
-										<td>
-											<table class="benchmark">
-												<tr>
-													<td class="green benchmark-header">Ideal</td>
-												</tr>
-												<tr>
-													<td class="grey">1</td>
-												</tr>
-											</table>
-										</td>
-										<td>
-											<table class="benchmark">
-												<tr>
-													<td class="amber benchmark-header">Good</td>
-												</tr>
-												<tr>
-													<td class="grey">&lt; 2</td>
-												</tr>
-											</table>
-										</td>
-										<td>
-											<table class="benchmark">
-												<tr>
-													<td class="red benchmark-header">Bad</td>
-												</tr>
-												<tr>
-													<td class="grey">&gt; 2</td>
-												</tr>
-											</table>
-										</td>		
-										<td>
-											<table class="benchmark">
-												<tr>
-													<td class="amber-border-top benchmark-header black-text grey">You</td>
-												</tr>
-												<tr>
-													<td class="amber">2</td>
-												</tr>
-											</table>
-										</td>																				
-										<td>
-											<h4 style="padding: 5px 20px;">Implications</h4>
+											<h4>Implications</h4>
 											<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
 										</td>
 									</tr>
 								</table>
 							</td>
-						</tr>
-						<tr>
-							<td>
-								<!-- Template 2 - Number of X -->
-								<table class="area-container">
-									<tr class="area-header">
-										<td class="area-header-title grey" colspan="5"><h6>Fields per object</h6></td>
-										<td class="area-header-score green">78%</td>
-									</tr>
-									<tr>
-										<td>
-											<table class="benchmark">
-												<tr>
-													<td class="green benchmark-header green-border-top">Ideal</td>
-												</tr>
-												<tr>
-													<td class="grey">&lt; 200</td>
-												</tr>
-											</table>
-										</td>
-										<td>
-											<table class="benchmark">
-												<tr>
-													<td class="amber benchmark-header amber-border-top">Good</td>
-												</tr>
-												<tr>
-													<td class="grey">&lt; 500</td>
-												</tr>
-											</table>
-										</td>
-										<td>
-											<table class="benchmark">
-												<tr>
-													<td class="red benchmark-header red-border-top">Bad</td>
-												</tr>
-												<tr>
-													<td class="grey">&gt; 500</td>
-												</tr>
-											</table>
-										</td>																			
-										<td>
-											<table class="grp-scores">
-												<tr>
-													<td class="green-border-top grp-score-header black-text grey">Your Scores</td>
-												</tr>
-												<tr>
-													<td class="grp-score green">2 Objects</td>
-												</tr>
-												<tr>
-													<td class="grp-score amber">3 Objects</td>
-												</tr>
-												<tr>
-													<td class="grp-score red">1 Object</td>
-												</tr>
-											</table>
-										</td>													
-										<td>
-											<h4 style="padding: 5px 20px;">Implications</h4>
-											<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-										</td>
-									</tr>										
-								</table>
-							</td>							
-						</tr>
+						</tr>						
 					</table>
 				</td>
 			</tr>			

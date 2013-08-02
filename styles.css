@@ -99,6 +99,10 @@
 	text-transform: uppercase;
 }
 
+.implication-blurb {
+	font-size: 14px;
+}
+
 .actual-score {
 	color: white;
 }
